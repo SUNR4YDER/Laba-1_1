@@ -19,6 +19,7 @@ def tap(x, y):
 
 def inside(xy):
     """Return True if xy within screen."""
+    """Тест на работу проверки изменений"""
     return -200 < xy.x < 200 and -200 < xy.y < 200
 
 
